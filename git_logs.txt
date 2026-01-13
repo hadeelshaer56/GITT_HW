@@ -1,0 +1,62 @@
+===== repo_01 / BR_TASK_1000 =====
+commit d39f34e53a00a859413c7f5570d93a0537bca29a (HEAD -> BR_TASK_1000, origin/HEAD, origin/BR_TASK_1000)
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 20:24:59 2026 +0200
+
+    1000 - 2026-01-13 20:24 - BR_TASK_1000 - Hadeel - Create README.md file - PART 2 - video demo
+
+commit 2e2751c4f1444629080887e230eb81a0b5fd1393
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 20:19:45 2026 +0200
+
+    1000 - 2026-01-13 20:19 - BR_TASK_1000 - Hadeel - Create README.md file - PART 2 - video demo
+
+commit b6ad87be6d24e077de55f1f5e420c0d3e3e5236d
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 19:03:28 2026 +0200
+
+    1000 - 2026-01-13 19:03 - BR_TASK_1000 - Hadeel - Create README.md file - video demo change
+
+commit 42bc956702f8d02a2b4726c7979c4dba0017d08c
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 16:55:05 2026 +0200
+
+    1000 - 2026-01-13 16:55 - BR_TASK_1000 - Hadeel - Create README.md file - initial version
+
+===== repo_02 / BR_TASK_1001 =====
+commit 9c2d91c0b1201c30de810ddc78b670806d08a0d4 (HEAD -> BR_TASK_1001, origin/HEAD, origin/BR_TASK_1001)
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 19:04:40 2026 +0200
+
+    1001 - 2026-01-13 19:04 - BR_TASK_1001 - Hadeel - Add a notes file - video demo change
+
+commit 7291fbdbcadc5cc3f5da4d9466e4b8be9ea247c3
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 17:01:24 2026 +0200
+
+    1001 - 2026-01-13 17:01 - BR_TASK_1001 - Hadeel - Add a notes file - first notes
+
+===== repo_03 / BR_TASK_1002 =====
+commit 656701d8580d976a991624deb9b3da54bd217b5e (HEAD -> BR_TASK_1002, origin/HEAD, origin/BR_TASK_1002)
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 20:21:11 2026 +0200
+
+    1002 - 2026-01-13 20:21 - BR_TASK_1002 - Hadeel - Add basic skeleton file - PART 2 - video demo
+
+commit d7dde4e4f7ca4b6bfc734521cf3df31a4dd84d93
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 19:48:10 2026 +0200
+
+    1002 - 2026-01-13 19:48 - BR_TASK_1002 - Hadeel - Add basic skeleton file - video demo change
+
+commit 12d2f772dcf71022a01ae5cc7d08793920ac447a
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 17:09:31 2026 +0200
+
+    1002 - 2026-01-13 17:09 - BR_TASK_1002 - Hadeel - Add basic skeleton file - add skeleton
+
+commit ed69b9cd0a422af5c6d9e62b34a53e0c0d730ee2
+Author: Hadeel Al-Shaer <hadeelshaer56@gmail.com>
+Date:   Tue Jan 13 17:02:27 2026 +0200
+
+    1002 - 2026-01-13 17:02 - BR_TASK_1002 - Hadeel - Add basic skeleton file - add skeleton
