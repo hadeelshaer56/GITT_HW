@@ -1,0 +1,4 @@
+RepoPath,GitHubURL,Developer,Branch,Description,TaskID
+/Users/hadeelal-shaer/GITT_HW/repos/repo_01,https://github.com/hadeelshaer56/repo_01.git,Hadeel,BR_TASK_1000,Create README.md file,1000
+/Users/hadeelal-shaer/GITT_HW/repos/repo_02,https://github.com/hadeelshaer56/repo_02.git,Hadeel,BR_TASK_1001,Add a notes file,1001
+/Users/hadeelal-shaer/GITT_HW/repos/repo_03,https://github.com/hadeelshaer56/repo_03.git,Hadeel,BR_TASK_1002,Add basic skeleton file,1002

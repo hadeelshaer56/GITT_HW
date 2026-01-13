@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-CSV_FILE="./tasks.csv"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CSV_FILE="${SCRIPT_DIR}/tasks.csv"
 
 usage() {
   echo "Usage: ./commit.sh <TASK_ID> \"<Optional Message>\""
@@ -98,8 +99,12 @@ else
 fi
 
 # --- count existing commits for this TASK_ID in commit messages ---
-# We count commits whose message starts with "TASK_ID -"
-EXISTING_COMMITS="$(git log --pretty=%s | grep -E "^${TASK_ID} -" | wc -l | tr -d ' ')"
+# If the repo has no commits yet, git log fails; treat as 0.
+if git rev-parse --verify HEAD >/dev/null 2>&1; then
+  EXISTING_COMMITS="$(git log --pretty=%s | grep -E "^${TASK_ID} -" | wc -l | tr -d ' ')"
+else
+  EXISTING_COMMITS=0
+fi
 
 # --- build commit message ---
 NOW="$(date '+%Y-%m-%d %H:%M')"
@@ -130,5 +135,6 @@ echo "Commit created successfully."
 echo "Commit hash: $HASH"
 
 # --- push ---
+# First push will create the branch on the remote if it doesn't exist yet.
 git push -u origin "$Branch" >/dev/null
 echo "Push to GitHub completed successfully."
