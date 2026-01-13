@@ -10,7 +10,7 @@ usage() {
 }
 
 # --- args ---
-if [[ $# -lt 1 ]]; then
+if [[ $# -lt 1 || $# -gt 2 ]]; then
   usage
 fi
 
@@ -54,6 +54,11 @@ Developer="$(trim "$Developer")"
 Branch="$(trim "$Branch")"
 Description="$(trim "$Description")"
 TaskID="$(trim "$TaskID")"
+
+if [[ -z "$RepoPath" || -z "$GitHubURL" || -z "$Developer" || -z "$Branch" || -z "$Description" || -z "$TaskID" ]]; then
+  echo "ERROR: Invalid CSV row for TASK_ID $TASK_ID (one or more required fields are empty)"
+  exit 8
+fi
 
 echo "=== Selected Task (from CSV) ==="
 echo "TaskID:      $TaskID"
